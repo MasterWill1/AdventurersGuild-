@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<TargetDef label = "goblin">
+		<defName>Goblin</defName>
+		<disallowedLocations>
+			<li>town</li>
+			<li>city</li>
+		</disallowedLocations>
+		<targetType>humanoid</targetType>
+		<commonality>0</commonality>
+		<applicableGoals>
+			<goal label="kill">
+				<difficultyMin>0</difficultyMin>
+				<difficultyMax>999</difficultyMax>
+			</goal>
+		</applicableGoals>
+	</TargetDef>
+
+	<TargetDef label = "goblinWarlord">
+		<defName>Goblin Warlord</defName>
+		<disallowedLocations>
+			<li>town</li>
+			<li>city</li>
+		</disallowedLocations>		
+		<targetType>humanoid</targetType>
+		<commonality>0</commonality>
+		<applicableGoals>
+			<goal label="kill">
+				<difficultyMin>0</difficultyMin>
+				<difficultyMax>999</difficultyMax>
+			</goal>
+		</applicableGoals>
+	</TargetDef>
+	
+	<TargetDef label = "human">
+		<defName>Human</defName>
+		<targetType>humanoid</targetType>
+		<commonality>0</commonality>
+		<applicableGoals>
+			<goal label="kill">
+				<difficultyMin>0</difficultyMin>
+				<difficultyMax>999</difficultyMax>
+			</goal>
+		</applicableGoals>
+	</TargetDef>
+	
+	<TargetDef label = "elf">
+		<defName>Elf</defName>
+		<targetType>humanoid</targetType>
+		<commonality>0</commonality>
+		<applicableGoals>
+			<goal label="kill">
+				<difficultyMin>0</difficultyMin>
+				<difficultyMax>999</difficultyMax>
+			</goal>
+		</applicableGoals>
+	</TargetDef>
+	
+	<TargetDef label = "dwarf">
+		<defName>Dwarf</defName>
+		<targetType>humanoid</targetType>
+		<commonality>0</commonality>
+		<applicableGoals>
+			<goal label="kill">
+				<difficultyMin>0</difficultyMin>
+				<difficultyMax>999</difficultyMax>
+			</goal>
+		</applicableGoals>
+	</TargetDef>
+	
+	<TargetDef label = "halfling">
+		<defName>Halfling</defName>
+		<targetType>humanoid</targetType>
+		<commonality>0</commonality>
+		<applicableGoals>
+			<goal label="kill">
+				<difficultyMin>0</difficultyMin>
+				<difficultyMax>999</difficultyMax>
+			</goal>
+		</applicableGoals>
+	</TargetDef>
+	
+	<TargetDef label = "halforc">
+		<defName>Half Orc</defName>
+		<targetType>humanoid</targetType>
+		<commonality>0</commonality>
+		<applicableGoals>
+			<goal label="kill">
+				<difficultyMin>0</difficultyMin>
+				<difficultyMax>999</difficultyMax>
+			</goal>
+		</applicableGoals>
+	</TargetDef>
+	
+	<TargetDef label = "giantSpider">
+		<defName>Giant Spider</defName>
+		<allowedBiome>
+			<li>forest</li>
+		</allowedBiome>
+		<allowedLocations>
+			<li>dungeon</li>
+			<li>ruins</li>
+			<li>caves</li>
+			<li>wilds</li>
+		</allowedLocations>
+		<targetType>monster</targetType>
+		<commonality>0</commonality>
+		<applicableGoals>
+			<goal label="kill">
+				<difficultyMin>0</difficultyMin>
+				<difficultyMax>999</difficultyMax>
+			</goal>
+		</applicableGoals>
+	</TargetDef>
+	
+	<TargetDef label = "ogre">
+		<defName>Ogre</defName>
+		<disallowedBiome>
+			<li>jungle</li>
+			<li>desert</li>
+		</disallowedBiome>
+		<disallowedLocations>
+			<li>town</li>
+			<li>city</li>
+		</disallowedLocations>
+		<targetType>monster</targetType>
+		<commonality>0</commonality>
+		<applicableGoals>
+			<goal label="kill">
+				<difficultyMin>0</difficultyMin>
+				<difficultyMax>999</difficultyMax>
+			</goal>
+		</applicableGoals>
+	</TargetDef>	
+	
+	<TargetDef label = "wolve">
+		<defName>Wolve</defName>
+		<disallowedBiome>
+			<li>jungle</li>
+			<li>desert</li>
+		</disallowedBiome>
+		<disallowedLocations>
+			<li>town</li>
+			<li>city</li>
+			<li>castle</li>
+			<li>dungeon</li>
+			<li>caves</li>
+		</disallowedLocations>
+		<targetType>beast</targetType>
+		<commonality>0</commonality>
+		<applicableGoals>
+			<goal label="kill">
+				<difficultyMin>0</difficultyMin>
+				<difficultyMax>999</difficultyMax>
+			</goal>
+		</applicableGoals>
+	</TargetDef>		
+	
+	<TargetDef label = "griffon">
+		<defName>Griffon</defName>
+		<disallowedBiome>
+			<li>jungle</li>
+			<li>desert</li>
+		</disallowedBiome>
+		<disallowedLocations>
+			<li>town</li>
+			<li>city</li>
+			<li>castle</li>
+			<li>dungeon</li>
+			<li>caves</li>
+		</disallowedLocations>
+		<targetType>beast</targetType>
+		<commonality>0</commonality>
+		<applicableGoals>
+			<goal label="kill">
+				<difficultyMin>0</difficultyMin>
+				<difficultyMax>999</difficultyMax>
+			</goal>
+		</applicableGoals>
+	</TargetDef>		
+	
+	<TargetDef label = "skeleton">
+		<defName>Skeleton</defName>
+		<disallowedLocations>
+			<li>town</li>
+			<li>city</li>
+			<li>castle</li>
+			<li>camp</li>
+		</disallowedLocations>
+		<targetType>undead</targetType>
+		<commonality>0</commonality>
+		<applicableGoals>
+			<goal label="kill">
+				<difficultyMin>0</difficultyMin>
+				<difficultyMax>999</difficultyMax>
+			</goal>
+		</applicableGoals>
+	</TargetDef>		
+	
+	<TargetDef label = "lich">
+		<defName>Lich</defName>
+		<disallowedLocations>
+			<li>town</li>
+			<li>city</li>
+			<li>camp</li>
+		</disallowedLocations>
+		<targetType>undead</targetType>
+		<commonality>0</commonality>
+		<applicableGoals>
+			<goal label="kill">
+				<difficultyMin>0</difficultyMin>
+				<difficultyMax>999</difficultyMax>
+			</goal>
+		</applicableGoals>
+	</TargetDef>	
+</Defs>

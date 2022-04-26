@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<Faction label = "populationCenter">	
+		<factionType>civilisation</factionType>
+		<Title>Population Center</Title>
+		<Description>A a hub of life hosting various people</Description>
+		<BaseWealth>1000</BaseWealth>
+		<BaseGoodness>6</BaseGoodness>
+		<SuitableLocations>
+			<Location>town</Location>
+		</SuitableLocations>
+		<ApplicableRoles> 
+			<Role label = "mayor">
+				<maxNumber>1</maxNumber> 
+				<hierarchyPosition>1</hierarchyPosition> 
+			</Role>
+			<Role label = "councilor">
+				<maxNumber>6</maxNumber> 
+				<hierarchyPosition>2</hierarchyPosition> 
+			</Role>			
+		</ApplicableRoles>		
+		<BoundChildFactions>
+			<Faction label = "blacksmith">
+				<hierarchyPosition>2</hierarchyPosition> 
+			</Faction>
+			<Faction label = "tannery">
+				<hierarchyPosition>2</hierarchyPosition> 
+			</Faction>
+			<Faction label = "hunters">
+				<hierarchyPosition>2</hierarchyPosition> 
+			</Faction>
+			<Faction label = "farmers">
+				<hierarchyPosition>2</hierarchyPosition> 
+			</Faction>
+			<Faction label = "unemployedPopulace">
+				<hierarchyPosition>3</hierarchyPosition> 
+			</Faction>
+		</BoundChildFactions>
+	</Faction>
+		
+	<Faction label = "blacksmith">	
+		<factionType>civilisation</factionType>
+		<Title>Blacksmiths</Title>
+		<Description>A blacksmiths</Description>
+		<BaseWealth>100</BaseWealth>
+		<BaseGoodness>5</BaseGoodness>
+		<SuitableLocations>
+			<SameAsParent>Y</SameAsParent>
+		</SuitableLocations>
+		<ApplicableRoles> 
+			<Role label = "businessOwner">
+				<maxNumber>1</maxNumber> 
+				<hierarchyPosition>1</hierarchyPosition> 
+			</Role>
+			<Role label = "worker">
+				<maxNumber>5</maxNumber> 
+				<hierarchyPosition>2</hierarchyPosition> 
+			</Role>			
+		</ApplicableRoles>		
+		<TradeableGoods>
+			<good>armour</good>
+		</TradeableGoods>	
+		<WantedGoods>
+			<good>rawIron, coal, leather</good>
+		</WantedGoods>		
+		<LikelyQuests>
+			<quest>gatherMaterials</quest>
+		</LikelyQuests>		
+	</Faction>	
+	
+	<Faction label = "tannery">	
+		<factionType>civilisation</factionType>
+		<Title>Tannery</Title>
+		<Description>A tannery</Description>
+		<BaseWealth>100</BaseWealth>
+		<BaseGoodness>5</BaseGoodness>
+		<SuitableLocations>
+			<SameAsParent>Y</SameAsParent>
+		</SuitableLocations>
+		<ApplicableRoles> 
+			<Role label = "businessOwner">
+				<maxNumber>1</maxNumber> 
+				<hierarchyPosition>1</hierarchyPosition> 
+			</Role>
+			<Role label = "worker">
+				<maxNumber>5</maxNumber> 
+				<hierarchyPosition>2</hierarchyPosition> 
+			</Role>			
+		</ApplicableRoles>		
+		<TradeableGoods>
+			<good>leather</good>
+		</TradeableGoods>	
+		<WantedGoods>
+			<good>hide</good>
+		</WantedGoods>		
+		<LikelyQuests>
+			<quest>gatherMaterials</quest>
+		</LikelyQuests>		
+	</Faction>		
+	
+	<Faction label = "hunters">	
+		<factionType>civilisation</factionType>
+		<Title>Hunters</Title>
+		<Description>A hunters</Description>
+		<BaseWealth>100</BaseWealth>
+		<BaseGoodness>5</BaseGoodness>
+		<SuitableLocations>
+			<SameAsParent>Y</SameAsParent>
+		</SuitableLocations>
+		<ApplicableRoles> 
+			<Role label = "businessOwner">
+				<maxNumber>1</maxNumber> 
+				<hierarchyPosition>1</hierarchyPosition> 
+			</Role>
+			<Role label = "worker">
+				<maxNumber>5</maxNumber> 
+				<hierarchyPosition>2</hierarchyPosition> 
+			</Role>			
+		</ApplicableRoles>		
+		<TradeableGoods>
+			<good>hide</good>
+			<good>rawFood</good>
+		</TradeableGoods>	
+		<WorkedGoods>
+			<good>wildAnimals</good>
+		</WorkedGoods>		
+	</Faction>			
+	
+	<Faction label = "farmers">	
+		<factionType>civilisation</factionType>
+		<Title>Farmers</Title>
+		<Description>A farmers guild</Description>
+		<BaseWealth>100</BaseWealth>
+		<BaseGoodness>5</BaseGoodness>
+		<SuitableLocations>
+			<SameAsParent>Y</SameAsParent>
+		</SuitableLocations>
+		<ApplicableRoles> 
+			<Role label = "businessOwner">
+				<maxNumber>1</maxNumber> 
+				<hierarchyPosition>1</hierarchyPosition> 
+			</Role>
+			<Role label = "worker">
+				<maxNumber>80</maxNumber> 
+				<hierarchyPosition>2</hierarchyPosition> 
+			</Role>			
+		</ApplicableRoles>		
+		<TradeableGoods>
+			<good>hide</good>
+			<good>rawFood</good>
+		</TradeableGoods>	
+		<WorkedGoods>
+			<good>farmland</good>
+		</WorkedGoods>		
+	</Faction>	
+	
+	<Faction label = "unemployedPopulace">	
+		<factionType>civilisation</factionType>
+		<Title>Unemployed People</Title>
+		<Description>The spare people of the town</Description>
+		<BaseWealth>400</BaseWealth>
+		<BaseGoodness>5</BaseGoodness>
+		<SuitableLocations>
+			<SameAsParent>Y</SameAsParent>
+		</SuitableLocations>
+		<ApplicableRoles> 
+			<Role label = "population">
+				<maxNumber>80</maxNumber> 			
+				<hierarchyPosition>1</hierarchyPosition> 
+			</Role>			
+		</ApplicableRoles>			
+	</Faction>	
+</Defs>

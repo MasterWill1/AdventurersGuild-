@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!--
+<Location label = "specificLocationTag">
+	<Title></Title>
+	<Description></Description>
+	<requiredBiomes>
+		<biome label ="">
+			<productionMultiplier></productionMultiplier> 
+		</biome>
+	</requiredBiomes>
+	<IsRemovable></IsRemovable> //can this location be removed completely or will it turn to ruin
+	<ProducedGoods></ProducedGoods>//what can be harvested directly from this location (ie ore)
+	<CombatScoreEffect></CombatScoreEffect>// how attacking a faction in this location will affect defenders combat score
+</Location>
+-->
+<Defs>
+	<Location label = "town">
+		<Title>Town</Title>
+		<Description>A humble town bustling with life</Description>
+		<requiredBiomes>
+			<biome label ="">
+				<productionMultiplier></productionMultiplier> 
+			</biome>
+		</requiredBiomes>
+		<IsRemovable></IsRemovable> 
+		<ProducedGoods></ProducedGoods>
+		<CombatScoreEffect></CombatScoreEffect>
+	</Location>
+</Defs>

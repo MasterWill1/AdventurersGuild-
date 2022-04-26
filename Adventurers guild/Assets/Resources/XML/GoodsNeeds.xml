@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GoodsNeed label = "rawFood">
+		<numberPer10Pop>5</numberPer10Pop>
+	</GoodsNeed>	
+	<GoodsNeed label = "wood">
+		<numberPer10Pop>1</numberPer10Pop>
+	</GoodsNeed>	
+</Defs>	

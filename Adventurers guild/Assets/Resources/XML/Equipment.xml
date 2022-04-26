@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<Equipment label = "leatherCap">
+		<ItemType>headEquipment</ItemType>	
+		<Title>Leather Cap</Title>
+		<Description>A leather cap</Description>
+		<BaseCombatScore>2</BaseCombatScore>
+		<BaseCost>2</BaseCost>
+		<TrainingRequirement>light</TrainingRequirement>
+	</Equipment>
+	
+	<Equipment label = "skullCap">
+		<ItemType>headEquipment</ItemType>	
+		<Title>Skull Cap</Title>
+		<Description>A skull cap</Description>
+		<BaseCombatScore>3</BaseCombatScore>
+		<BaseCost>3</BaseCost>
+		<TrainingRequirement>light</TrainingRequirement>
+	</Equipment>	
+	
+	<Equipment label = "chainHat">
+		<ItemType>headEquipment</ItemType>	
+		<Title>Chain Hat</Title>
+		<Description>A Chain hat</Description>
+		<BaseCombatScore>4</BaseCombatScore>
+		<BaseCost>4</BaseCost>
+		<TrainingRequirement>medium</TrainingRequirement>
+	</Equipment>	
+	
+	<Equipment label = "ironHelmet">
+		<ItemType>headEquipment</ItemType>	
+		<Title>Iron Helmet</Title>
+		<Description>A Chain hat</Description>
+		<BaseCombatScore>5</BaseCombatScore>
+		<BaseCost>5</BaseCost>
+		<TrainingRequirement>heavy</TrainingRequirement>
+	</Equipment>		
+	
+	<Equipment label = "wizardHat">
+		<ItemType>headEquipment</ItemType>	
+		<Title>Wizard Hat</Title>
+		<Description>A magic hat to hone magical abilities</Description>
+		<BaseCombatScore>2</BaseCombatScore>
+		<BaseCost>4</BaseCost>
+		<TrainingRequirement>spellcaster</TrainingRequirement>
+	</Equipment>	
+	
+	<Equipment label = "wizardRobes">
+		<ItemType>bodyEquipment</ItemType>	
+		<Title>Wizard Robes</Title>
+		<Description>Magical robes to hone magical abilities</Description>
+		<BaseCombatScore>4</BaseCombatScore>
+		<BaseCost>8</BaseCost>
+		<TrainingRequirement>spellcaster</TrainingRequirement>
+	</Equipment>
+	
+	<Equipment label = "leatherArmour">
+		<ItemType>bodyEquipment</ItemType>	
+		<Title>Leather Armour</Title>
+		<Description>A suit of leather armour</Description>
+		<BaseCombatScore>2</BaseCombatScore>
+		<BaseCost>3</BaseCost>
+		<TrainingRequirement>light</TrainingRequirement>
+	</Equipment>	
+	
+	<Equipment label = "chainShirt">
+		<ItemType>bodyEquipment</ItemType>	
+		<Title>Chain Shirt</Title>
+		<Description>A chainmail shirt</Description>
+		<BaseCombatScore>3</BaseCombatScore>
+		<BaseCost>4</BaseCost>
+		<TrainingRequirement>medium</TrainingRequirement>
+	</Equipment>		
+	
+	<Equipment label = "ironChestplate">
+		<ItemType>bodyEquipment</ItemType>	
+		<Title>Iron Chestplate</Title>
+		<Description>A iron chestplate</Description>
+		<BaseCombatScore>4</BaseCombatScore>
+		<BaseCost>8</BaseCost>
+		<TrainingRequirement>medium</TrainingRequirement>
+	</Equipment>
+	
+	<Equipment label = "platemail">
+		<ItemType>bodyEquipment</ItemType>	
+		<Title>Platemail</Title>
+		<Description>A suit of iron plate armour</Description>
+		<BaseCombatScore>6</BaseCombatScore>
+		<BaseCost>12</BaseCost>
+		<TrainingRequirement>heavy</TrainingRequirement>
+	</Equipment>
+	
+	<Equipment label = "leatherGloves">
+		<ItemType>handEquipment</ItemType>	
+		<Title>Leather Gloves</Title>
+		<Description>A pair of leather gloves</Description>
+		<BaseCombatScore>1</BaseCombatScore>
+		<BaseCost>1</BaseCost>
+		<TrainingRequirement>light</TrainingRequirement>
+	</Equipment>
+	
+	<Equipment label = "chainGloves">
+		<ItemType>handEquipment</ItemType>	
+		<Title>Chain Gloves</Title>
+		<Description>A pair of chain gloves</Description>
+		<BaseCombatScore>2</BaseCombatScore>
+		<BaseCost>3</BaseCost>
+		<TrainingRequirement>medium</TrainingRequirement>
+	</Equipment>	
+	
+	<Equipment label = "plateGloves">
+		<ItemType>handEquipment</ItemType>	
+		<Title>Plate Gloves</Title>
+		<Description>A pair of iron plate gloves</Description>
+		<BaseCombatScore>3</BaseCombatScore>
+		<BaseCost>5</BaseCost>
+		<TrainingRequirement>heavy</TrainingRequirement>
+	</Equipment>		
+
+	<Equipment label = "wizardGloves">
+		<ItemType>handEquipment</ItemType>	
+		<Title>Wizard Gloves</Title>
+		<Description>A pair of gloves to enhance magical ability</Description>
+		<BaseCombatScore>3</BaseCombatScore>
+		<BaseCost>3</BaseCost>
+		<TrainingRequirement>spellcaster</TrainingRequirement>
+	</Equipment>	
+	
+	<Equipment label = "shortsword">
+		<ItemType>strongHandEquipment</ItemType>
+		<Title>Shortsword</Title>
+		<Description>A simple 1 handed sword</Description>
+		<BaseCombatScore>2</BaseCombatScore>
+		<BaseCost>2</BaseCost>
+		<HandRequirement>1</HandRequirement>
+	</Equipment>
+	
+	<Equipment label = "quarterStaff">
+		<ItemType>strongHandEquipment</ItemType>
+		<Title>QuarterStaff</Title>
+		<Description>A simple quarterstaff</Description>
+		<BaseCombatScore>1</BaseCombatScore>
+		<BaseCost>1</BaseCost>
+		<HandRequirement>1</HandRequirement>
+	</Equipment>	
+	
+	<Equipment label = "handaxe">
+		<ItemType>strongHandEquipment</ItemType>
+		<Title>Hand Axe</Title>
+		<Description>A simple hand axe</Description>
+		<BaseCombatScore>1</BaseCombatScore>
+		<BaseCost>1</BaseCost>
+		<HandRequirement>1</HandRequirement>
+	</Equipment>	
+	
+	<Equipment label = "longsword">
+		<ItemType>strongHandEquipment</ItemType>
+		<Title>Longsword</Title>
+		<Description>A longsword</Description>
+		<BaseCombatScore>3</BaseCombatScore>
+		<BaseCost>3</BaseCost>
+		<HandRequirement>1</HandRequirement>
+		<TrainingRequirement>martial</TrainingRequirement>
+	</Equipment>		
+
+	<Equipment label = "greatsword">
+		<ItemType>strongHandEquipment</ItemType>
+		<Title>Greatsword</Title>
+		<Description>A 2 handed greatsword</Description>
+		<BaseCombatScore>4</BaseCombatScore>
+		<BaseCost>8</BaseCost>
+		<HandRequirement>2</HandRequirement>
+		<TrainingRequirement>martial</TrainingRequirement>
+	</Equipment>
+	
+	<Equipment label = "greataxe">
+		<ItemType>strongHandEquipment</ItemType>
+		<Title>Greataxe</Title>
+		<Description>A 2 handed greataxe</Description>
+		<BaseCombatScore>4</BaseCombatScore>
+		<BaseCost>8</BaseCost>
+		<HandRequirement>2</HandRequirement>
+		<TrainingRequirement>martial</TrainingRequirement>
+	</Equipment>	
+
+	<Equipment label = "wand">
+		<ItemType>strongHandEquipment</ItemType>
+		<Title>Wand</Title>
+		<Description>A spellcasters wand</Description>
+		<BaseCombatScore>3</BaseCombatScore>
+		<BaseCost>6</BaseCost>
+		<HandRequirement>1</HandRequirement>
+		<TrainingRequirement>spellcaster</TrainingRequirement>
+	</Equipment>	
+
+	<Equipment label = "shield">
+		<ItemType>offHandEquipment</ItemType>
+		<Title>Shield</Title>
+		<Description>A shield to stop you getting killed</Description>
+		<BaseCombatScore>3</BaseCombatScore>
+		<BaseCost>4</BaseCost>
+		<TrainingRequirement>martial</TrainingRequirement>
+	</Equipment>	
+	
+	<Equipment label = "spellbook">
+		<ItemType>offHandEquipment</ItemType>
+		<Title>Spellbook</Title>
+		<Description>A spellcasters spellbook</Description>
+		<BaseCombatScore>2</BaseCombatScore>
+		<BaseCost>4</BaseCost>
+		<TrainingRequirement>martial</TrainingRequirement>
+	</Equipment>		
+	
+	<Equipment label = "potion">
+		<ItemType>utilityEquipment</ItemType>
+		<Title>Potion</Title>
+		<Description>A magic potion</Description>
+	</Equipment>			
+</Defs>

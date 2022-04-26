@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<Opinionlet label="successfulQuestTogether">
+		<Title>Successful Quest Together</Title>
+		<Description> and {char} recently successfully completed a quest together</Description>
+		<OpinionBuff>20</OpinionBuff>
+		<Duration>20</Duration>	
+		<IsPerminant>N</IsPerminant>
+		<CanRepeat>Y</CanRepeat>
+	</Opinionlet>
+	
+	<Opinionlet label="unsuccessfulQuestTogether">
+		<Title>Unsuccessful Quest Together</Title>
+		<Description> and {char} recently failed a quest together</Description>
+		<OpinionBuff>10</OpinionBuff>
+		<Duration>20</Duration>	
+		<IsPerminant>N</IsPerminant>
+		<CanRepeat>Y</CanRepeat>
+	</Opinionlet>	
+	
+	<Opinionlet label="smallGoodnessDifference">
+		<Title>Slightly differing morals</Title>
+		<Description> and {char} have a slightly different moral code</Description>
+		<OpinionBuff>-5</OpinionBuff>
+		<Duration>999</Duration>	
+		<IsPerminant>Y</IsPerminant>
+		<CanRepeat>N</CanRepeat>
+	</Opinionlet>
+	
+	<Opinionlet label="largeGoodnessDifference">
+		<Title>Vastly differing morals</Title>
+		<Description> and {char} have a very different moral code</Description>
+		<OpinionBuff>-10</OpinionBuff>
+		<Duration>999</Duration>	
+		<IsPerminant>Y</IsPerminant>
+		<CanRepeat>N</CanRepeat>
+	</Opinionlet>	
+	
+	<Opinionlet label="sameGoodness">
+		<Title>Simular morals</Title>
+		<Description> and {char} have a very simular moral code</Description>
+		<OpinionBuff>10</OpinionBuff>
+		<Duration>999</Duration>	
+		<IsPerminant>Y</IsPerminant>
+		<CanRepeat>N</CanRepeat>
+	</Opinionlet>	
+
+	<Opinionlet label="hadChat">
+		<Title>Had a chat</Title>
+		<Description> and {char} had a nice chat together</Description>
+		<OpinionBuff>10</OpinionBuff>
+		<Duration>2</Duration>	
+		<IsPerminant>N</IsPerminant>
+		<CanRepeat>Y</CanRepeat>
+	</Opinionlet>	
+	
+	<Opinionlet label="hadDeepChat">
+		<Title>Had a deep chat</Title>
+		<Description> and {char} had a deep chat together</Description>
+		<OpinionBuff>15</OpinionBuff>
+		<Duration>5</Duration>	
+		<IsPerminant>N</IsPerminant>
+		<CanRepeat>Y</CanRepeat>
+	</Opinionlet>		
+	
+	<Opinionlet label="goodTeamwork">
+		<Title>Had good teamwork</Title>
+		<Description> and {char} worked well together</Description>
+		<OpinionBuff>25</OpinionBuff>
+		<Duration>10</Duration>	
+		<IsPerminant>N</IsPerminant>
+		<CanRepeat>Y</CanRepeat>
+	</Opinionlet>
+
+	<Opinionlet label="hadDisagreement">
+		<Title>Had a disagreement</Title>
+		<Description> and {char} had a disagreement</Description>
+		<OpinionBuff>-10</OpinionBuff>
+		<Duration>2</Duration>	
+		<IsPerminant>N</IsPerminant>
+		<CanRepeat>Y</CanRepeat>
+	</Opinionlet>	
+
+	<Opinionlet label="hadArgument">
+		<Title>Had an argument</Title>
+		<Description> and {char} had a argument</Description>
+		<OpinionBuff>-15</OpinionBuff>
+		<Duration>5</Duration>	
+		<IsPerminant>N</IsPerminant>
+		<CanRepeat>Y</CanRepeat>
+	</Opinionlet>		
+	
+	<Opinionlet label="hadSmallFight">
+		<Title>Had a small fight</Title>
+		<Description> and {char} had a small fight</Description>
+		<OpinionBuff>-20</OpinionBuff>
+		<Duration>10</Duration>	
+		<IsPerminant>N</IsPerminant>
+		<CanRepeat>Y</CanRepeat>
+	</Opinionlet>			
+	
+	<Opinionlet label="hadBigFight">
+		<Title>Had a big fight</Title>
+		<Description> and {char} had a big fight</Description>
+		<OpinionBuff>-30</OpinionBuff>
+		<Duration>15</Duration>	
+		<IsPerminant>N</IsPerminant>
+		<CanRepeat>Y</CanRepeat>
+	</Opinionlet>		
+	
+	<Opinionlet label="socialisedTogether">
+		<Title>Socialised Together</Title>
+		<Description> and {char} hung out together</Description>
+		<OpinionBuff>10</OpinionBuff>
+		<Duration>7</Duration>	
+		<IsPerminant>N</IsPerminant>
+		<CanRepeat>Y</CanRepeat>
+	</Opinionlet>	
+</Defs>

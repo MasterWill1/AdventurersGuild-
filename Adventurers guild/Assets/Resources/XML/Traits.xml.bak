@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<Trait label="strong">
+		<Title>Strong</Title>
+		<Description>{CharName} is naturally very strong</Description>
+		<IncompatableTraits>
+			<li>weak</li>
+		</IncompatableTraits>
+		<Commonality>0</Commonality>
+		<Effects>
+			<ClassEffects>
+				<Martial combatScore = "20"></Martial>
+				<Hybrid combatScore = "15"></Hybrid>
+				<Caster combatScore = "10"></Caster>
+				<fighter combatScore = "25"></fighter>
+			</ClassEffects>		
+		</Effects>
+	</Trait>
+	
+	<Trait label="weak">
+		<Title>Weak</Title>
+		<Description>{CharName} is naturally very weak</Description>
+		<IncompatableTraits>
+			<li>strong</li>
+		</IncompatableTraits>
+		<Commonality>0</Commonality>
+		<Effects>
+			<ClassEffects>
+				<Martial combatScore = "-20"></Martial>
+				<Hybrid combatScore = "-15"></Hybrid>
+				<Caster combatScore = "-10"></Caster>
+				<fighter combatScore = "-25"></fighter>
+			</ClassEffects>		
+		</Effects>
+	</Trait>
+
+	<Trait label="lucky">
+		<Title>Lucky</Title>
+		<Description>{CharName} is naturally very lucky</Description>
+		<IncompatableTraits>
+			<li>unlucky</li>
+		</IncompatableTraits>
+		<Commonality>0</Commonality>
+		<Effects>
+			<QuestEffects>
+				<CritSuccChance>2</CritSuccChance>
+			</QuestEffects>		
+		</Effects>
+	</Trait>	
+
+	<Trait label="unlucky">
+		<Title>Lucky</Title>
+		<Description>{CharName} is naturally very unlucky</Description>
+		<IncompatableTraits>
+			<li>lucky</li>
+		</IncompatableTraits>
+		<Commonality>0</Commonality>
+		<Effects>
+			<QuestEffects>
+				<CritFailChance>2</CritFailChance>
+			</QuestEffects>		
+		</Effects>
+	</Trait>	
+	
+	<Trait label="jogger">
+		<Title>Jogger</Title>
+		<Description>{CharName} doesnt like to dordle</Description>
+		<IncompatableTraits>
+			<li>slow</li>
+		</IncompatableTraits>
+		<Commonality>0</Commonality>
+		<Effects>
+			<QuestEffects>
+				<Speed>5</Speed>
+			</QuestEffects>		
+		</Effects>
+	</Trait>	
+	
+	<Trait label="slowCoach">
+		<Title>Slow Coach</Title>
+		<Description>{CharName} is slow to move</Description>
+		<IncompatableTraits>
+			<li>slow</li>
+		</IncompatableTraits>
+		<Commonality>0</Commonality>
+		<Effects>
+			<QuestEffects>
+				<Speed>-5</Speed>
+			</QuestEffects>		
+		</Effects>
+	</Trait>		
+
+	<Trait label="optimistic">
+		<Title>Optimistic</Title>
+		<Description>{CharName} is always in a good mood</Description>
+		<IncompatableTraits>
+			<li>pessimistic</li>
+		</IncompatableTraits>
+		<Commonality>0</Commonality>
+		<Effects>
+			<PersonalEffects>
+				<PerminantMoodlet>optimistic</PerminantMoodlet>
+			</PersonalEffects>	
+		</Effects>
+	</Trait>		
+	
+	<Trait label="pessimistic">
+		<Title>Pessimistic</Title>
+		<Description>{CharName} tends to look to the negative side of things</Description>
+		<IncompatableTraits>
+			<li>optimistic</li>
+		</IncompatableTraits>
+		<Commonality>0</Commonality>
+		<Effects>
+			<PersonalEffects>
+				<PerminantMoodlet>pessimistic</PerminantMoodlet>
+			</PersonalEffects>	
+		</Effects>
+	</Trait>	
+
+	<Trait label="drunkard">
+		<Title>Drunkard</Title>
+		<Description>{CharName} spends much of their time looking at the bottom of a mug of ale</Description>
+		<IncompatableTraits>
+			<li>teetotal</li>
+		</IncompatableTraits>
+		<Commonality>0</Commonality>
+		<Effects>
+			<PersonalEffects>
+				<clashingTraits>
+					<ClashTrait label = "drunkard">10</ClashTrait>
+					<ClashTrait label = "teetotal">-10</ClashTrait>
+				</clashingTraits>
+				<stressThreshold>5</stressThreshold>
+			</PersonalEffects>	
+			<ClassEffects>
+				<All combatScore = "-5"></All>
+			</ClassEffects>				
+		</Effects>
+	</Trait>		
+	
+	<Trait label="teetotal">
+		<Title>Teetotal</Title>
+		<Description>{CharName} lives a sober life</Description>
+		<IncompatableTraits>
+			<li>drunkard</li>
+		</IncompatableTraits>
+		<Commonality>0</Commonality>
+		<Effects>
+			<PersonalEffects>
+				<clashingTraits>
+					<ClashTrait label = "drunkard">-10</ClashTrait>
+					<ClashTrait label = "teetotal">10</ClashTrait>
+				</clashingTraits>
+				<stressThreshold>5</stressThreshold>
+			</PersonalEffects>			
+		</Effects>
+	</Trait>		
+	
+	<Trait label="brave">
+		<Title>Brave</Title>
+		<Description>{CharName} fears none</Description>
+		<IncompatableTraits>
+			<li>coward</li>
+		</IncompatableTraits>
+		<Commonality>0</Commonality>
+		<Effects>
+			<ClassEffects>
+				<All combatScore = "15"></All>
+			</ClassEffects>		
+		</Effects>
+	</Trait>
+	
+	<Trait label="coward">
+		<Title>Coward</Title>
+		<Description>{CharName} fears all</Description>
+		<IncompatableTraits>
+			<li>brave</li>
+		</IncompatableTraits>
+		<Commonality>0</Commonality>
+		<Effects>
+			<ClassEffects>
+				<All combatScore = "-15"></All>
+			</ClassEffects>		
+		</Effects>
+	</Trait>	
+	
+	<Trait label="determined">
+		<Title>Determined</Title>
+		<Description>{CharName} does not faulter. They will achieve their goal</Description>
+		<IncompatableTraits>
+			<li>coward</li>
+		</IncompatableTraits>
+		<Commonality>0</Commonality>
+		<Effects>
+			<ClassEffects>
+				<All combatScore = "10"></All>
+			</ClassEffects>		
+			<PersonalEffects>			
+				<stressThreshold>5</stressThreshold>
+			</PersonalEffects>				
+		</Effects>
+	</Trait>
+	
+	<Trait label="weakWilled">
+		<Title>Weak Willed</Title>
+		<Description>{CharName} gives up easily</Description>
+		<IncompatableTraits>
+			<li>determined</li>
+		</IncompatableTraits>
+		<Commonality>0</Commonality>
+		<Effects>
+			<ClassEffects>
+				<All combatScore = "-10"></All>
+			</ClassEffects>		
+			<PersonalEffects>			
+				<stressThreshold>-5</stressThreshold>
+			</PersonalEffects>					
+		</Effects>
+	</Trait>		
+	
+	<Trait label="agile">
+		<Title>Agile</Title>
+		<Description>{CharName} is lightfooted and can move like the wind</Description>
+		<IncompatableTraits>
+			<li>clumsy</li>
+		</IncompatableTraits>
+		<Commonality>0</Commonality>
+		<Effects>
+			<ClassEffects>
+				<Martial combatScore = "10"></Martial>
+				<Hybrid combatScore = "5"></Hybrid>
+				<Caster combatScore = "5"></Caster>
+				<ranger combatScore = "15"></ranger>
+				<rogue combatScore = "20"></rogue>
+			</ClassEffects>		
+		</Effects>
+	</Trait>	
+	
+	<Trait label="clumsy">
+		<Title>Clumsy</Title>
+		<Description>{CharName} is prone to seeming the fool. They can be heard coming a mile off</Description>
+		<IncompatableTraits>
+			<li>agile</li>
+		</IncompatableTraits>
+		<Commonality>0</Commonality>
+		<Effects>
+			<ClassEffects>
+				<Martial combatScore = "10"></Martial>
+				<Hybrid combatScore = "5"></Hybrid>
+				<Caster combatScore = "5"></Caster>
+				<ranger combatScore = "15"></ranger>
+				<rogue combatScore = "20"></rogue>
+			</ClassEffects>		
+		</Effects>
+	</Trait>		
+	
+	<Trait label="clever">
+		<Title>Clever</Title>
+		<Description>{CharName} is always the first to work something out.</Description>
+		<IncompatableTraits>
+			<li>stupid</li>
+		</IncompatableTraits>
+		<Commonality>0</Commonality>
+		<Effects>
+			<ClassEffects>
+				<Martial combatScore = "5"></Martial>
+				<Hybrid combatScore = "10"></Hybrid>
+				<Caster combatScore = "15"></Caster>
+				<wizard combatScore = "20"></wizard>
+			</ClassEffects>		
+		</Effects>
+	</Trait>		
+	
+	<Trait label="stupid">
+		<Title>Stupid</Title>
+		<Description>{CharName} is not the sharpest tool in the box.</Description>
+		<IncompatableTraits>
+			<li>clever</li>
+		</IncompatableTraits>
+		<Commonality>0</Commonality>
+		<Effects>
+			<ClassEffects>
+				<Martial combatScore = "-5"></Martial>
+				<Hybrid combatScore = "-10"></Hybrid>
+				<Caster combatScore = "-15"></Caster>
+				<wizard combatScore = "-20"></wizard>
+			</ClassEffects>		
+			<PersonalEffects>			
+				<stressThreshold>5</stressThreshold>
+			</PersonalEffects>						
+		</Effects>
+	</Trait>		
+	
+	<Trait label="attractive">
+		<Title>Attractive</Title>
+		<Description>{CharName} is very pretty to look at.</Description>
+		<IncompatableTraits>
+			<li>ugly</li>
+		</IncompatableTraits>
+		<Commonality>0</Commonality>
+	</Trait>	
+	
+	<Trait label="ugly">
+		<Title>Ugly</Title>
+		<Description>{CharName} has a face that prefers not to be looked at.</Description>
+		<IncompatableTraits>
+			<li>attractive</li>
+		</IncompatableTraits>
+		<Commonality>0</Commonality>
+	</Trait>		
+	
+	<Trait label="kind">
+		<Title>Kind</Title>
+		<Description>{CharName} is a very friendly person.</Description>
+		<IncompatableTraits>
+			<li>callous</li>
+		</IncompatableTraits>
+		<Commonality>0</Commonality>
+	</Trait>		
+	
+	<Trait label="callous">
+		<Title>Callous</Title>
+		<Description>{CharName} is very rude to most people.</Description>
+		<IncompatableTraits>
+			<li>kind</li>
+		</IncompatableTraits>
+		<Commonality>0</Commonality>
+	</Trait>	
+
+	<Trait label="stoic">
+		<Title>Stoic</Title>
+		<Description>{CharName} has almost complete control of their emotions</Description>
+		<IncompatableTraits>
+			<li>emotional</li>
+		</IncompatableTraits>
+		<Commonality>0</Commonality>
+		<Effects>
+			<PersonalEffects>			
+				<stressThreshold>15</stressThreshold>
+			</PersonalEffects>					
+		</Effects>
+	</Trait>	
+
+	<Trait label="emotional">
+		<Title>Emotional</Title>
+		<Description>{CharName} has powerful emotions</Description>
+		<IncompatableTraits>
+			<li>stoic</li>
+		</IncompatableTraits>
+		<Commonality>0</Commonality>
+		<Effects>
+			<PersonalEffects>			
+				<stressThreshold>-15</stressThreshold>
+			</PersonalEffects>		
+			<ClassEffects>
+				<bard combatScore = "10"></bard>
+			</ClassEffects>					
+		</Effects>
+	</Trait>		
+</Defs>

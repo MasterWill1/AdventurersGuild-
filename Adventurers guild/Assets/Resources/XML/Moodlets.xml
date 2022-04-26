@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<Moodlet label = "optimistic">
+		<Title>Optimistic</Title>
+		<Description>{Char} always looks on the bright side of life</Description>
+		<MoodBuff>10</MoodBuff>
+		<Duration>999</Duration>	
+		<IsPerminant>Y</IsPerminant>
+		<CanRepeat>N</CanRepeat>
+	</Moodlet>
+	
+	<Moodlet label = "pessimistic">
+		<Title>Pessimistic</Title>
+		<Description>{Char} tends to look at the negative side of things</Description>
+		<MoodBuff>-10</MoodBuff>
+		<Duration>999</Duration>	
+		<IsPerminant>Y</IsPerminant>
+		<CanRepeat>N</CanRepeat>
+	</Moodlet>
+	
+	<Moodlet label = "newlyRecruited">
+		<Title>Newly Recruited</Title>
+		<Description>I got a new job! Finally some income</Description>
+		<MoodBuff>15</MoodBuff>
+		<Duration>10</Duration>	
+		<IsPerminant>N</IsPerminant>
+		<CanRepeat>N</CanRepeat>
+	</Moodlet>
+	
+	<Moodlet label = "successfulQuest">
+		<Title>Successful Quest</Title>
+		<Description>I completed a quest. I'm the best!</Description>
+		<MoodBuff>15</MoodBuff>
+		<Duration>10</Duration>	
+		<IsPerminant>N</IsPerminant>
+		<CanRepeat>Y</CanRepeat>
+	</Moodlet>
+	
+	<Moodlet label = "unsuccessfulQuest">
+		<Title>Unsuccessful Quest</Title>
+		<Description>I failed a quest, what a waste of time and effort. I suck.</Description>
+		<MoodBuff>-15</MoodBuff>
+		<Duration>10</Duration>	
+		<IsPerminant>N</IsPerminant>
+		<CanRepeat>Y</CanRepeat>
+	</Moodlet>
+	
+	<Moodlet label = "wasPayed">
+		<Title>Recently Payed</Title>
+		<Description>Who doesnt love pay day?</Description>
+		<MoodBuff>5</MoodBuff>
+		<Duration>3</Duration>	
+		<IsPerminant>N</IsPerminant>
+		<CanRepeat>Y</CanRepeat>
+	</Moodlet>	
+	
+	<Moodlet label = "injuredMinor">
+		<Title>Small Injuries</Title>
+		<Description>I have a few cuts a bruises, it hurts but i've had worse</Description>
+		<MoodBuff>-10</MoodBuff>
+		<Duration>999</Duration>	
+		<IsPerminant>Y</IsPerminant>
+		<CanRepeat>N</CanRepeat>
+	</Moodlet>		
+	
+	<Moodlet label = "injuredMajor">
+		<Title>Large Injuries</Title>
+		<Description>I have been badly hurt and I am in constant pain. I can barely sleep!</Description>
+		<MoodBuff>-20</MoodBuff>
+		<Duration>999</Duration>	
+		<IsPerminant>Y</IsPerminant>
+		<CanRepeat>N</CanRepeat>
+	</Moodlet>		
+	
+	<Moodlet label = "enjoyedDowntimeMinor">
+		<Title>Enjoyed Some Downtime</Title>
+		<Description>I had a good time socialising and enjoying my hobbies</Description>
+		<MoodBuff>10</MoodBuff>
+		<Duration>10</Duration>	
+		<IsPerminant>N</IsPerminant>
+		<CanRepeat>N</CanRepeat>
+	</Moodlet>		
+	
+	<Moodlet label = "enjoyedDowntimeMajor">
+		<Title>Hugely Enjoyed Downtime</Title>
+		<Description>I had a great time socialising, relaxing and enjoying my hobbies</Description>
+		<MoodBuff>20</MoodBuff>
+		<Duration>20</Duration>	
+		<IsPerminant>N</IsPerminant>
+		<CanRepeat>N</CanRepeat>
+	</Moodlet>		
+	
+	<Moodlet label = "onMisalignedContract">
+		<Title>On Misaligned Contract</Title>
+		<Description>I don't agree with the contract I am currently on. It feels wrong.</Description>
+		<MoodBuff>-20</MoodBuff>
+		<Duration>999</Duration>	
+		<IsPerminant>Y</IsPerminant>
+		<CanRepeat>N</CanRepeat>
+	</Moodlet>	
+
+	<Moodlet label = "onAlignedContract">
+		<Title>On Aligned Contract</Title>
+		<Description>This contract is everything I agree with</Description>
+		<MoodBuff>20</MoodBuff>
+		<Duration>999</Duration>	
+		<IsPerminant>Y</IsPerminant>
+		<CanRepeat>N</CanRepeat>
+	</Moodlet>		
+	
+	<Moodlet label = "completedMisalignedQuest">
+		<Title>Completed Misaligned Contract</Title>
+		<Description>I completed a contract that I didn't agree with. I feel wrong</Description>
+		<MoodBuff>-20</MoodBuff>
+		<Duration>20</Duration>	
+		<IsPerminant>N</IsPerminant>
+		<CanRepeat>Y</CanRepeat>
+	</Moodlet>		
+	
+	<Moodlet label = "completedAlignedQuest">
+		<Title>Completed Aligned Contract</Title>
+		<Description>I completed a contract that I agreed with. It feels good!</Description>
+		<MoodBuff>20</MoodBuff>
+		<Duration>20</Duration>	
+		<IsPerminant>N</IsPerminant>
+		<CanRepeat>Y</CanRepeat>
+	</Moodlet>	
+
+	<Moodlet label = "dislikeColleague">
+		<Title>Working with someone I dislike</Title>
+		<Description>I am spending every waking hour with someone i dislike. This sucks</Description>
+		<MoodBuff>-5</MoodBuff>
+		<Duration>999</Duration>	
+		<IsPerminant>Y</IsPerminant>
+		<CanRepeat>Y</CanRepeat>
+	</Moodlet>		
+	
+	<Moodlet label = "likeColleague">
+		<Title>Working with someone I like</Title>
+		<Description>I am working with someone I like</Description>
+		<MoodBuff>5</MoodBuff>
+		<Duration>999</Duration>	
+		<IsPerminant>Y</IsPerminant>
+		<CanRepeat>Y</CanRepeat>
+	</Moodlet>		
+</Defs>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<Faction label = "town">	
+		<factionType>populationCentre</factionType>
+		<Title>Town</Title>
+		<Description>A town hosting various people</Description>
+		<BaseWealth></BaseWealth>
+		<BaseGoodness></BaseGoodness>
+		<SuitableLocations>
+			<SameAsParent></SameAsParent>
+			<Location></Location>
+		</SuitableLocations>
+		<IsRoaming></IsRoaming>
+		<ApplicableRoles> 
+			<Role label = "roleTag">
+				<maxNumber></maxNumber> 
+				<hierarchyPosition></hierarchyPosition> 
+			</Role>
+		</ApplicableRoles>		
+		<TradeableGoods> //goods they will produce if needs met
+			<good></good>
+		</TradeableGoods>	
+		<WantedGoods> //goods the factions will value and require for production
+			<good></good>
+		</WantedGoods>		
+		<WorkedGoods> //goods they will work ie liveDeer
+			<good></good>
+		</WorkedGoods>			
+		<LikelyQuests>
+			<quest></quest>
+		</LikelyQuests>		
+		<BoundChildFactions>
+			<Faction label = "tag">
+				<maxNumber></maxNumber>	
+				<hierarchyPosition></hierarchyPosition> 
+				<chance></chance>
+			</Faction>
+		</BoundChildFactions>
+		<ExternalChildFactions>
+			<Faction label = "tag">
+				<maxNumber></maxNumber>	
+				<hierarchyPosition></hierarchyPosition> 
+				<chance></chance>
+			</Faction>
+		</ExternalChildFactions>		
+	</Faction>
+</Defs>

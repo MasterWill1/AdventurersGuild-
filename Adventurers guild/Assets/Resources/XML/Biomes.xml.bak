@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<Biome label = "plains">
+		<Title>Plains</Title>
+		<Description>Lush green fields as far as the eye can see</Description>
+		<ProducedGoods>		
+			<good label = "wildAnimals">
+				<efficiency>80</efficiency>
+			</good>
+			<good label = "farmland">
+				<efficiency>100</efficiency>
+			</good>			
+		</ProducedGoods>		
+		<TravelSpeed>10</TravelSpeed>
+	</Biome>
+	
+	<Biome label = "forest">
+		<Title>Forest</Title>
+		<Description>A wooded area</Description>
+		<ProducedGoods>
+			<good label = "wildAnimals">
+				<efficiency>100</efficiency>
+			</good>
+			<good label = "wood">
+				<efficiency>100</efficiency>
+			</good>		</ProducedGoods>
+		<TravelSpeed>8</TravelSpeed>
+	</Biome>	
+	
+	<Biome label = "hills">
+		<Title>Hills</Title>
+		<ProducedGoods>		
+			<good label = "wildAnimals">
+				<efficiency>60</efficiency>
+			</good>
+			<good label = "farmland">
+				<efficiency>80</efficiency>
+			</good>			
+		</ProducedGoods>
+		<Description>Rolling Hills</Description>
+		<TravelSpeed>6</TravelSpeed>
+	</Biome>	
+	
+	<Biome label = "mountains">
+		<Title>Mountains</Title>
+		<Description>Tall mountains</Description>
+		<ProducedGoods>		
+			<good label = "wildAnimals">
+				<efficiency>40</efficiency>
+			</good>
+			<good label = "farmland">
+				<efficiency>20</efficiency>
+			</good>			
+		</ProducedGoods>		
+		<TravelSpeed>4</TravelSpeed>
+	</Biome>	
+	
+	<Biome label = "desert">
+		<Title>Desert</Title>
+		<Description>A baren sandy place</Description>
+		<ProducedGoods>		
+			<good label = "wildAnimals">
+				<efficiency>40</efficiency>
+			</good>	
+		</ProducedGoods>		
+		<TravelSpeed>6</TravelSpeed>
+	</Biome>	
+	
+	<Biome label = "jungle">
+		<Title>Jungle</Title>
+		<Description>A tropical jungle</Description>
+		<ProducedGoods>		
+			<good label = "wildAnimals">
+				<efficiency>50</efficiency>
+			</good>
+			<good label = "farmland">
+				<efficiency>20</efficiency>
+			</good>			
+		</ProducedGoods>		
+		<TravelSpeed>5</TravelSpeed>
+	</Biome>		
+</Defs>	
